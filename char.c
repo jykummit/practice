@@ -10,7 +10,7 @@ static int hello_init(void){
 }
 
 static void hello_exit(void){
-	printk(KERN_ALERT "this is driver program");
+	printk(KERN_ALERT "this is driver program doing firstly");
 	return 0;
 }
 
