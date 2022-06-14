@@ -4,7 +4,7 @@
 
 
 static int hello_init(void){
-	printk(KERN_ALERT "this is driver  program");
+	printk(KERN_ALERT "this is driver  program practice");
 	return 0;
 
 }
